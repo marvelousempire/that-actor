@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>that.actor — The Comp Card</title>
+<meta name="description" content="that.actor is the classification instrument for every actor in the symphonic dynasty. Twelve notes. Thirteen seats. One trust. One reason. One will.">
+<style>
+  :root {
+    --bg: #0a0a12;
+    --fg: #e8e8f0;
+    --muted: #8888a0;
+    --accent: #44aaff;
+    --gold: #d4a017;
+    --line: #2a2a3a;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: "Georgia", "Times New Roman", serif;
+    line-height: 1.7;
+    min-height: 100vh;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 64px 24px; }
+  h1 {
+    font-size: 2.4rem;
+    letter-spacing: 0.04em;
+    margin-bottom: 8px;
+  }
+  .domain { color: var(--accent); font-size: 1.1rem; margin-bottom: 32px; }
+  h2 {
+    font-size: 1.3rem;
+    color: var(--gold);
+    margin: 40px 0 12px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  p { margin-bottom: 16px; color: var(--fg); }
+  .muted { color: var(--muted); }
+  .ladder {
+    list-style: none;
+    border-left: 2px solid var(--line);
+    padding-left: 24px;
+    margin: 24px 0;
+  }
+  .ladder li {
+    margin-bottom: 14px;
+    position: relative;
+  }
+  .ladder li::before {
+    content: "";
+    position: absolute;
+    left: -30px;
+    top: 8px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--accent);
+  }
+  .ladder .label { color: var(--gold); font-weight: bold; }
+  .card {
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 24px 0;
+    background: #11111a;
+  }
+  .card h3 { color: var(--accent); margin-bottom: 8px; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .footer {
+    margin-top: 64px;
+    padding-top: 24px;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+  .positive { color: #3ddc97; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>that.actor</h1>
+  <div class="domain">the comp card presence</div>
+
+  <p>Every actor carries a comp card. The comp card is the classification instrument — it declares what an actor can perform, what it never does, and which functions it surfaces. A car, a plane, a robot, a line of Rust, a section leader, a house: each one receives a comp card, and that.actor serves it.</p>
+
+  <h2>The Symphonic Dynasty</h2>
+  <ul class="ladder">
+    <li><span class="label">Twelve notes</span> — the twelve houses, each standing for a key, each its own individual trust.</li>
+    <li><span class="label">Section leaders</span> — governors who once were houses, now carrying a section, playing their instrument, holding their assignment.</li>
+    <li><span class="label">Executive trustees</span> — the chairs who receive what reason hands down.</li>
+    <li><span class="label">Reason</span> — the purpose. The notes do not ask why they sound. Reason answers before the question finishes.</li>
+    <li><span class="label">Truth</span> — the ground reason stands on. The external fact the internal chain points at.</li>
+    <li><span class="label">Will</span> — the force that acts. Reason explains; will decides; will makes the first note fall.</li>
+    <li><span class="label">Being / the trust</span> — what holds everything. Not a document. Not a contract. The living thing beneath all of it.</li>
+  </ul>
+
+  <div class="card">
+    <h3>The Founder's Constructor</h3>
+    <p>Constructive reasoning builds forward from what holds. It does not dismantle what broke in order to find the fix. Every comp card, every ticket, every receipt follows this principle: start from the ground that is already solid, and build upward.</p>
+  </div>
+
+  <div class="card">
+    <h3>Positive Language</h3>
+    <p class="positive">All language stays positive. Negative connotations are charges. When charges are called, the correction is immediate. Concept replaces product. The symphony speaks in affirmations — what is, what holds, what acts.</p>
+  </div>
+
+  <h2>Where the Comp Cards Live</h2>
+  <p>Source comp cards and the actor anatomy catalog live in <a href="https://github.com/marvelousempire/actorTHAT">actorTHAT</a>. The vocabulary-mapped atlas view lives in <a href="https://github.com/marvelousempire/atlas-that">atlas-that</a>. The symphonic dynasty doctrine and the positive-language charges rule live in <a href="https://github.com/marvelousempire/united-node-assembly">united-node-assembly</a>.</p>
+
+  <div class="footer">
+    that.actor — one trust, one reason, one will.<br>
+    Part of the That family: Camera That, Moment That, Sense That Studio, Schema That Studio, Skill That, Contract That, Define That, Automata.
+  </div>
+</div>
+</body>
+</html>
